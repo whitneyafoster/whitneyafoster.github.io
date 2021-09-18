@@ -1,0 +1,94 @@
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+footer {
+  height: 200px;
+  padding: 3%;
+}
+
+.logo {
+  height: 50px;
+}
+
+.navbar {
+  border-bottom: 1px solid seashell;
+  height: 69px;
+}
+
+.nav-link {
+  text-decoration: underline;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1200px;
+  transform: translate(-50%, -50%);
+  background-color: black;
+}
+
+#tea-month {
+  padding: 3%;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row-2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.centered-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1200px;
+  transform: translate(-50%, -50%);
+}
+
+.card-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.location-img {
+  position: relative;
+  z-index: -1;
+}
+
+.location-card {
+  background-color: #000000;
+  border: none;
+}
